@@ -1,0 +1,18 @@
+# Ignorar archivos sin extensión
+*
+
+# Permitir archivos con extensión
+!*.*
+!*/
+
+# Ignorar compilados comunes
+*.exe
+*.out
+*.o
+**/*.exe
+**/*.out
+**/*.o
+
+# Ignorar directorios de compilación
+build/
+bin/
